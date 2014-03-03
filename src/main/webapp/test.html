@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+    <meta charset="utf-8">
+    <title>Colanote의 첫번째 layout</title>
+    <style>
+        * {margin:0; padding:0;}
+        body { font-family: 'Helvetica', sans-serif;}
+        a { text-decoration: none;}
+        #header{
+            height: 30px; line-height: 30px;
+            padding-left: 10px;
+            border-bottom: 1px solid black;
+            background:#666; color:antiquewhite;
+        }
+        #content-parent-1{
+             float:left;
+             width:61%;
+         }
+        #content-parent-2{
+            float:left;
+            width:39%;
+        }
+        #body{
+            overflow: hidden;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        메뉴
+    </div>
+    <div id="body">
+        <div id="content-parent-1" class="cardpack">
+            <div id="card-2" style="background: wheat; color:black;">
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산
+            </div>
+        </div>
+        <div id="content-parent-2" class="cardpack">
+            <div id="card-2" style="background: firebrick; color:azure;">
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+</body>
+</html>
